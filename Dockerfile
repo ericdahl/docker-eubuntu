@@ -10,5 +10,7 @@ RUN apt-get install -y \
         mtr-tiny \
         netcat-openbsd \
         tcpdump \
+        net-tools \
+        iproute2 \
         tmux \
     && rm -rf /var/lib/apt/lists/*
